@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "532910205873",
+    "firebase_url": "https://manavizag-157cd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "manavizag-157cd",
+    "storage_bucket": "manavizag-157cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532910205873:android:dbaaf09cfd8905b5ef2b90",
+        "android_client_info": {
+          "package_name": "com.harsha.vizagitiee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532910205873-aamu6qg69opmhei5707k2g1il5732um9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harsha.vizagitiee",
+            "certificate_hash": "bef68fe4813a05b7598e9e557aae499458ebc2d9"
+          }
+        },
+        {
+          "client_id": "532910205873-7jqjesh0n6sltm3e750o105hqq528u4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz30O-ZimKbdjsn4CjJusXlvA8D-JxHX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532910205873-7jqjesh0n6sltm3e750o105hqq528u4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

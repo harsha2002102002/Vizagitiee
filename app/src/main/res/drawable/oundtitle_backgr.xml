@@ -1,0 +1,13 @@
+<!-- res/drawable/title_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#72D1ED" /> <!-- Background color -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/white" /> <!-- Replace with your desired border color -->
+    <corners android:radius="8dp" /> <!-- Rounded corners -->
+    <padding
+        android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp" />
+</shape>

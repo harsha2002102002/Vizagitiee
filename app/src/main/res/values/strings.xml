@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="vizag_options">
+        <item>Are you from Vizag?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="267dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- ImageView -->
+        <ImageView
+            android:id="@+id/temple_image"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/lote"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+        <!-- Temple name -->
+        <TextView
+            android:id="@+id/temple_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/temple_image"
+            android:text="Temple Name"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <!-- Location -->
+        <TextView
+            android:id="@+id/temple_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temple_name"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/temple_image"
+            android:text="Location"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!-- Distance -->
+        <TextView
+            android:id="@+id/temple_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temple_location"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/temple_image"
+            android:text="Distance"
+             android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!-- Information -->
+        <TextView
+            android:id="@+id/temple_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temple_distance"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/temple_image"
+            android:text="Information"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
